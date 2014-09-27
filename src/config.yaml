@@ -1,0 +1,21 @@
+---
+libraries:
+- name: "django"
+  version: "1.4"
+
+name: #your app id
+version: #your version
+
+#当启动时，将下面反注释掉
+#cron:
+#- description: 刷新并最多处理三个消息
+#  url: /task/
+#  schedule: "*/5 * * * *"
+
+#- description: 保持在线
+#  url: /letmeon/
+#  schedule: "*/40 * * * *"
+
+#- description: 刷新并最多处理三个消息
+#  url: /updateqiubai/
+#  schedule: "30 23 * * *"
